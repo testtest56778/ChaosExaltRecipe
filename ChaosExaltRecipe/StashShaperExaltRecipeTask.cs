@@ -102,11 +102,11 @@ namespace ChaosExaltRecipe
                 Class1.ShaperStashData.IncreaseItemCount(item.ItemType);
                 GlobalLog.Info($"[Events] Item stashed ({item.FullName})");
                 Utility.BroadcastMessage(this, Events.Messages.ItemStashedEvent, item);
-                Class1.ShaperStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Shaper);
-                Class1.ShaperStashData.Log();
+
             }
             await Wait.SleepSafe(300);
-
+            Class1.ShaperStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Shaper);
+            Class1.ShaperStashData.Log();
             return true;
         }
 

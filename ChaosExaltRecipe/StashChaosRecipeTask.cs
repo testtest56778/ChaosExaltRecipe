@@ -89,6 +89,8 @@ namespace ChaosExaltRecipe
                     _chaosStashTabIsFull = true;
                     return true;
                 }
+
+
                 if (!await Inventories.FastMoveFromInventory(itemPos))
                 {
                     ReportError();
@@ -97,11 +99,11 @@ namespace ChaosExaltRecipe
                 Class1.ChaosStashData.IncreaseItemCount(item.ItemType);
                 GlobalLog.Info($"[Events] Item stashed ({item.FullName})");
                 Utility.BroadcastMessage(this, Events.Messages.ItemStashedEvent, item);
-                Class1.ChaosStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Chaos);
-                Class1.ChaosStashData.Log();
+
             }
             await Wait.SleepSafe(300);
-
+            Class1.ChaosStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Chaos);
+            Class1.ChaosStashData.Log();
             return true;
         }
 

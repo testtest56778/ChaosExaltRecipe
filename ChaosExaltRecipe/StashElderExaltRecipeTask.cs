@@ -98,11 +98,11 @@ namespace ChaosExaltRecipe
                 Class1.ElderStashData.IncreaseItemCount(item.ItemType);
                 GlobalLog.Info($"[Events] Item stashed ({item.FullName})");
                 Utility.BroadcastMessage(this, Events.Messages.ItemStashedEvent, item);
-                Class1.ElderStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Elder);
-                Class1.ElderStashData.Log();
+
             }
             await Wait.SleepSafe(300);
-
+            Class1.ElderStashData.SyncWithStashTab(RecipeData.ExaltRecipeItemType.Elder);
+            Class1.ElderStashData.Log();
             return true;
         }
 
