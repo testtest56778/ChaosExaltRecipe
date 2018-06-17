@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildArtifacts", "BuildArtifacts\BuildArtifacts.csproj", "{691B9553-CBDF-4B6B-83F7-082123B46DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosExaltRecipe", "ChaosExaltRecipe\ChaosExaltRecipe.csproj", "{2E2DB884-59D0-4726-8904-C897DE1E7EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Debug|x86.Build.0 = Debug|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Release|x86.ActiveCfg = Release|Any CPU
+		{691B9553-CBDF-4B6B-83F7-082123B46DD7}.Release|x86.Build.0 = Release|Any CPU
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Debug|x86.ActiveCfg = Debug|x86
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Debug|x86.Build.0 = Debug|x86
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Release|x86.ActiveCfg = Release|x86
+		{2E2DB884-59D0-4726-8904-C897DE1E7EFF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA1DDF5-C4E2-4DC5-9485-166C35038076}
+	EndGlobalSection
+EndGlobal
